@@ -1,0 +1,13 @@
+prefix=c:/Users/kutak/Desktop/python練習用/.conda/Library
+exec_prefix=c:/Users/kutak/Desktop/python練習用/.conda/Library
+libdir=c:/Users/kutak/Desktop/python練習用/.conda/Library/lib
+sharedlibdir=c:/Users/kutak/Desktop/python練習用/.conda/Library/lib
+includedir=c:/Users/kutak/Desktop/python練習用/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
